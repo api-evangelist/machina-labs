@@ -1,0 +1,47 @@
+generated: '2026-08-25'
+method: probed
+source: live HTTP probes of machinalabs.ai and docs.machinalabs.ai
+note: >-
+  Every /.well-known/ path probed on both Machina Labs hosts returned a real HTTP 404
+  (the HubSpot CMS 404 template on machinalabs.ai, the Nextra 404 page on
+  docs.machinalabs.ai) — these are honest negatives, not soft-200 catch-alls, and a
+  control probe of a nonsense path returned the same 404. No WellKnown or SecurityTxt
+  pointer is emitted, because nothing was served. A recorded absence is valid data.
+hit_count: 0
+hosts:
+- host: https://machinalabs.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://docs.machinalabs.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+soft_404_control:
+  url: https://machinalabs.ai/this-path-should-not-exist-xyz
+  status: 404
+  bytes: 40088

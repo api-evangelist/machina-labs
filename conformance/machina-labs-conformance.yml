@@ -1,0 +1,55 @@
+generated: '2026-08-25'
+method: searched
+source: https://machinalabs.ai/quality
+note: >-
+  Machina Labs publishes no machine-readable API contract, so no API-level standard
+  (OAuth 2.0, OIDC, RFC 9457, JSON:API, OData, pagination, idempotency) could be
+  asserted or refuted from a specification. What the company does publish is a quality
+  and compliance posture for regulated aerospace and defense manufacturing, captured
+  below from its own Quality page. No domain-standard signature is recorded because
+  there is no contract in which one could be declared — the domain_standard_conformance
+  check is reward-only and is deliberately left unclaimed rather than invented.
+api_standards_evaluated: false
+standards:
+- id: cmmc-level-2
+  name: CMMC Level 2 (Cybersecurity Maturity Model Certification)
+  conforms: true
+  evidence:
+    url: https://machinalabs.ai/quality
+    statement: >-
+      "Achieved CMMC Level 2 certification in Dec. 2025, fully compliant with
+      NIST SP 800-171"
+    achieved: '2025-12'
+- id: nist-sp-800-171
+  name: NIST SP 800-171 (Protecting CUI in Nonfederal Systems)
+  conforms: true
+  evidence:
+    url: https://machinalabs.ai/quality
+    statement: >-
+      Stated as the basis of the CMMC Level 2 certification — "fully compliant with
+      NIST SP 800-171".
+- id: itar
+  name: ITAR registration with the U.S. Directorate of Defense Trade Controls (DDTC)
+  conforms: true
+  evidence:
+    url: https://machinalabs.ai/quality
+    statement: "ITAR Registered with the Directorate of Defense Trade Controls (DDTC)"
+- id: as9100d
+  name: AS9100D (Aerospace Quality Management System)
+  conforms: false
+  status: in-progress
+  evidence:
+    url: https://machinalabs.ai/quality
+    statement: >-
+      "actively pursuing AS9100D registration with Stage 1 and Stage 2 audits
+      scheduled for 2026"
+- id: oauth2
+  name: OAuth 2.0
+  conforms: false
+  evidence:
+    statement: No published API, securityScheme, or authorization surface to evaluate.
+- id: rfc9457
+  name: RFC 9457 Problem Details for HTTP APIs
+  conforms: false
+  evidence:
+    statement: No published API contract or error reference to evaluate.

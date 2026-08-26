@@ -1,17 +1,36 @@
 aid: machina-labs
 name: Machina Labs
-description: 'Machina Labs is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Machina Labs is a Chatsworth, California manufacturer that builds software-defined
+  factories for metal structures. Its RoboCraftsman platform pairs 7-axis robots with
+  closed-loop AI control to roboform, scan, trim, drill and finish large sheet-metal
+  parts — up to 12 ft long and 1/4 in thick, in aluminum, steel, stainless, titanium,
+  nickel superalloys and refractory alloys — without any custom tooling, and captures
+  high-resolution process data as a digital twin of every part. The company serves
+  aerospace, defense (through its Machina Bellator subsidiary), hypersonics and
+  automotive customers, is ITAR registered and CMMC Level 2 certified, and publishes
+  customer-facing CAD and Roboforming documentation at docs.machinalabs.ai. It does
+  not operate a public developer program: no API reference, OpenAPI specification, SDK
+  or developer portal is published, and integration into customer PLM/MES systems is
+  described only as a capability sold through its sales and applications engineering
+  teams.
 url: https://raw.githubusercontent.com/api-evangelist/machina-labs/refs/heads/main/apis.yml
+image: https://machinalabs.ai/hubfs/Machina-Labs_Brandmark-Logo.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-25'
 modified: '2026-08-25'
 tags:
 - Company
+- Manufacturing
+- Robotics
+- Artificial Intelligence
+- Aerospace
+- Defense
+- Industrial Automation
+- Metal Forming
+- Advanced Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,58 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/machina-labs-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/machina-labs_stock/
+  url: https://machinalabs.ai/
+- type: Documentation
+  url: https://docs.machinalabs.ai/
+- type: GettingStarted
+  url: https://docs.machinalabs.ai/cad-guidelines
+- type: Support
+  url: https://machinalabs.ai/contact-us
+- type: GitHubOrganization
+  url: https://github.com/Machina-Labs
+- type: PrivacyPolicy
+  url: https://machinalabs.ai/privacy-policy
+- type: TermsOfService
+  url: https://machinalabs.ai/supplier-terms
+- type: Compliance
+  url: https://machinalabs.ai/quality
+- type: Blog
+  url: https://machinalabs.ai/resources
+- type: BlogRSS
+  url: https://machinalabs.ai/resources/rss.xml
+- type: LLMsTxt
+  url: llms/machina-labs-llms.txt
+- type: Conformance
+  url: conformance/machina-labs-conformance.yml
+- type: Plans
+  url: plans/machina-labs-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/machina-labs-rate-limits.yml
+x-enrichment:
+  date: '2026-08-25'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Machina Labs sells roboformed metal parts, not software access — its only public
+    documentation site (docs.machinalabs.ai, a Nextra build) is a two-page CAD and
+    Roboforming guide for manufacturing customers, and every contract-discovery path on
+    both machinalabs.ai and docs.machinalabs.ai returned a real 404.
+  evidence:
+  - url: https://docs.machinalabs.ai/
+    status: 200
+  - url: https://machinalabs.ai/openapi.json
+    status: 404
+  - url: https://docs.machinalabs.ai/openapi.json
+    status: 404
+  - url: https://machinalabs.ai/.well-known/agent-card.json
+    status: 404
+  - url: https://machinalabs.ai/pricing
+    status: 404
+  checked: '2026-08-25'

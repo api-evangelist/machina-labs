@@ -1,0 +1,17 @@
+generated: '2026-08-25'
+method: searched
+source: https://docs.machinalabs.ai/
+note: >-
+  Not applicable — Machina Labs publishes no public API, so there are no request quotas,
+  throttling windows, or rate-limit response headers to record. The only public
+  documentation (docs.machinalabs.ai) covers CAD preparation and the Roboforming
+  process, not an HTTP interface. limit_count is an honest zero.
+limit_count: 0
+applicable: false
+rate_limits: []
+response_headers: []
+evidence:
+- url: https://docs.machinalabs.ai/
+  status: 200
+- url: https://machinalabs.ai/openapi.json
+  status: 404

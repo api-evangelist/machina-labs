@@ -1,0 +1,17 @@
+generated: '2026-08-25'
+method: searched
+source: https://machinalabs.ai/contact-us
+note: >-
+  Machina Labs publishes no pricing, plans, or rate card. /pricing returns HTTP 404 and
+  the sitemap lists no pricing page; every commercial path on the site funnels to a
+  "Contact Us" / "Contact Sales" form. Parts are quoted per program through sales and
+  applications engineering, which is normal for tooling-free aerospace and defense
+  manufacturing. plan_count is an honest zero, not an omission.
+plan_count: 0
+pricing_model: contact-sales
+plans: []
+evidence:
+- url: https://machinalabs.ai/pricing
+  status: 404
+- url: https://machinalabs.ai/contact-us
+  status: 200
