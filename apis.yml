@@ -15,6 +15,17 @@ description: >-
   described only as a capability sold through its sales and applications engineering
   teams.
 url: https://raw.githubusercontent.com/api-evangelist/machina-labs/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://machinalabs.ai/hubfs/Machina-Labs_Brandmark-Logo.png
 x-type: company
 x-source: harvest:secondary-market
