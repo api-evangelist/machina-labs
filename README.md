@@ -64,5 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Machina Labs is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/machina-labs_stock/
+Machina Labs is a Chatsworth, California manufacturer that builds software-defined factories for metal structures. Its RoboCraftsman platform pairs 7-axis robots with closed-loop AI control to roboform, scan, trim, drill and finish large sheet-metal parts — up to 12 ft long and 1/4 in thick, in aluminum, steel, stainless, titanium, nickel superalloys and refractory alloys — without any custom tooling, and captures high-resolution process data as a digital twin of every part. The company serves aerospace, defense (through its Machina Bellator subsidiary), hypersonics and automotive customers, is ITAR registered and CMMC Level 2 certified, and publishes customer-facing CAD and Roboforming documentation at docs.machinalabs.ai. It does not operate a public developer program: no API reference, OpenAPI specification, SDK or developer portal is published, and integration into customer PLM/MES systems is described only as a capability sold through its sales and applications engineering teams.
+
+**Areas:** Company · Manufacturing · Robotics · Artificial Intelligence · Aerospace · Defense · Industrial Automation · Metal Forming · Advanced Manufacturing
+
+## Machina Labs on APIs.io
+
+Everything profiled for Machina Labs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/machina-labs/](https://apis.io/providers/machina-labs/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Machina Labs Domain Security](https://apis.io/security/machina-labs/machina-labs-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Machina Labs Plans Pricing](https://apis.io/plans/machina-labs/machina-labs-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Machina Labs Rate Limits](https://apis.io/rate-limits/machina-labs/machina-labs-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://machinalabs.ai/)
+- [Documentation](https://docs.machinalabs.ai/)
+- [Getting started](https://docs.machinalabs.ai/cad-guidelines)
+- [Support](https://machinalabs.ai/contact-us)
+- [Blog](https://machinalabs.ai/resources)
+- [Compliance](https://machinalabs.ai/quality)
+- [Terms of service](https://machinalabs.ai/supplier-terms)
+- [Privacy policy](https://machinalabs.ai/privacy-policy)
+- [GitHub](https://github.com/Machina-Labs)
+
+## API Evangelist rating
+
+**Kin Score 19.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 28.9 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/machina-labs/](https://apis.io/providers/machina-labs/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Machina Labs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/machina-labs/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
